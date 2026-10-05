@@ -101,8 +101,8 @@ The payment workflow includes:
 The implementation stores the Razorpay order ID, payment ID, signature ID and payment status for each order.
 
 ## Screenshots
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c0fa48f-395c-4815-a605-a92ee42328ac" />
 
-Add screenshots of the following pages:
 
 
 ## Live Demo
