@@ -113,7 +113,4 @@ https://gmrllabs.pythonanywhere.com/
 ## GitHub Repository
 
 **GitHub Repository:**  
-[Add your GitHub repository URL here]
-
-http://127.0.0.1:8000/
-```
+https://github.com/RaveenaLaiju/gmrllab.git
