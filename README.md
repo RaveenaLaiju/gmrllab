@@ -101,8 +101,39 @@ The payment workflow includes:
 The implementation stores the Razorpay order ID, payment ID, signature ID and payment status for each order.
 
 ## Screenshots
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8c0fa48f-395c-4815-a605-a92ee42328ac" />
+Home Page:-
+<img width="1920" height="908" alt="Screenshot (81)" src="https://github.com/user-attachments/assets/ef81ef0c-879d-4c9d-ae8e-2595b9a11d51" />
 
+Customer Registration:-
+<img width="1920" height="842" alt="Screenshot (82)" src="https://github.com/user-attachments/assets/cdc7689a-21c7-4a6d-be50-4baf1005fe1c" />
+
+Customer Login:-
+<img width="1920" height="766" alt="Screenshot (83)" src="https://github.com/user-attachments/assets/a1a34546-7f06-42a9-972c-f108933805f5" />
+
+Packages:-
+<img width="1920" height="872" alt="Screenshot (85)" src="https://github.com/user-attachments/assets/f1a35c8e-9ca9-4aba-883b-aed2ddab14e1" />
+
+Packages Details:- 
+<img width="1920" height="895" alt="Screenshot (86)" src="https://github.com/user-attachments/assets/a3515523-2047-4872-bf11-91851bacc2c0" />
+
+Appointment Booking:-
+<img width="1920" height="896" alt="Screenshot (87)" src="https://github.com/user-attachments/assets/42273d8a-43de-48dc-995a-cae192e77ec0" />
+
+Razorpay Payment:-
+<img width="1920" height="885" alt="Screenshot (93)" src="https://github.com/user-attachments/assets/3015b5ed-a7fa-4018-9249-b840a0ef1df3" />
+
+Admin Dashboard:-
+<img width="1920" height="903" alt="Screenshot (88)" src="https://github.com/user-attachments/assets/dd2c547e-8b86-4971-b465-0d463be77342" />
+
+Package Management:-
+<img width="1920" height="891" alt="Screenshot (91)" src="https://github.com/user-attachments/assets/69140d90-7be7-4e0a-b80c-eb78b83e4d77" />
+<img width="1920" height="860" alt="Screenshot (92)" src="https://github.com/user-attachments/assets/c23c1b14-c7e1-46f6-aa26-7db9c190918f" />
+
+Appointment Management:-
+<img width="1920" height="897" alt="Screenshot (89)" src="https://github.com/user-attachments/assets/b6ad8726-31d5-40e2-a40f-04174b0a8a0d" />
+
+Gallery:-
+<img width="1920" height="880" alt="Screenshot (90)" src="https://github.com/user-attachments/assets/63d6ef75-db7d-4702-b059-b41628a52e53" />
 
 
 ## Live Demo
