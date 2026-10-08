@@ -593,7 +593,7 @@ def admin_branches(request):
 
     if request.method == "POST":
         if'save' in request.POST:
-            form=Branch_form(request.POST)
+            form=Branch_form(request.POST,request.FILES)
             if form.is_valid():
                 form.save()
             else:
@@ -607,7 +607,7 @@ def admin_branches(request):
         if'update' in request.POST:
             key = request.POST.get('update')
             branch = Branch.objects.get(id=key)
-            form=Branch_form(request.POST,instance=branch)
+            form=Branch_form(request.POST,request.FILES,instance=branch)
             if form.is_valid():
                 form.save()
 
@@ -656,6 +656,7 @@ def admin_packages(request):
         if 'save' in request.POST:
                 name = request.POST.get('name')
                 image = request.POST.get('image')
+                image_upload = request.FILES.get('image_upload')
                 price = request.POST.get('price')
                 branch_name = request.POST.get('branch')
                 branch = Branch.objects.get(name=branch_name)
@@ -683,6 +684,8 @@ def admin_packages(request):
             package.price=price
             package.image=image
             package.branch=branch
+            if request.FILES.get('image_upload'):
+               package.image_upload = request.FILES.get('image_upload')
             package.save()
             
 
@@ -914,6 +917,7 @@ def order(request):
         packages.append({
             'name': package.name,
             'image': package.image,
+            'image_upload': package.image_upload,
             'price': package.price,
             'order_id': order.id,
             # Add any other information you want to display
