@@ -71,7 +71,11 @@ Packages
   <div class="card card-1">
     <div class="enquiry-img">
     <div class="en-imgs">
-    <img src="{{i.image}}" class="en-img" alt="...">
+     {% if i.image_upload %}
+    <img src="{{ i.image_upload.url }}" alt="{{ i.name }}" class="en-img">
+{% elif i.image %}
+    <img src="{{ i.image }}" alt="{{ i.name }}" class="en-img">
+{% endif %}
     </div>
     <span class="en-span"><h5>From: <i class="fa fa-rupee"></i> {{i.price}}</h5></span>
     <div class="middle">
