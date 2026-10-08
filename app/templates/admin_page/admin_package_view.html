@@ -388,7 +388,15 @@
               
                 <h5 class="package-price">From:  <i class="fa fa-rupee"></i>  {{data.price}}</h5>
               
-                <img src="{{data.image}}" alt="" class="pack-img">
+                {% if data.image_upload %}
+        <img src="{{ data.image_upload.url }}"
+             alt="{{ data.name }}"
+             class="pack-img">
+    {% elif data.image %}
+        <img src="{{ data.image }}"
+             alt="{{ data.name }}"
+             class="pack-img">
+    {% endif %}
               
                 <h5 class="text-center mt-3 text-black">{{data.name}}</h3>
               </div>
